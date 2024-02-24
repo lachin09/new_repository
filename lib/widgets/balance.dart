@@ -5,19 +5,18 @@ class Balance extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-        child: const Column(
-      children: [
-        Text(
-          'Total Balance',
-          style: TextStyle(
-              fontSize: 20, color: Color.fromARGB(255, 110, 106, 106)),
-        ),
-        Text(
-          '\$12.0000',
-          style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
-        )
-      ],
-    ));
+    return const Column(
+          children: [
+    Text(
+      'Total Balance',
+      style: TextStyle(
+          fontSize: 20, color: Color.fromARGB(255, 110, 106, 106)),
+    ),
+    Text(
+      '\$12.0000',
+      style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+    )
+          ],
+        );
   }
 }

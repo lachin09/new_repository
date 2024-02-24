@@ -32,9 +32,7 @@ class Statuss extends StatelessWidget {
 }
 
 class _Scanner extends StatelessWidget {
-  const _Scanner({
-    super.key,
-  });
+  const _Scanner();
 
   @override
   Widget build(BuildContext context) {
@@ -43,9 +41,7 @@ class _Scanner extends StatelessWidget {
 }
 
 class _Wallet extends StatelessWidget {
-  const _Wallet({
-    super.key,
-  });
+  const _Wallet();
 
   @override
   Widget build(BuildContext context) {
